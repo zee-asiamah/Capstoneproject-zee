@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #6a3e8f;
+    padding: 20px 30px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+    
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;  /* Stack form elements vertically */
+    max-width: 500px;  /* Limit the form width */
+    margin: 0 auto;  /* Center the form on the page */
+}
+
