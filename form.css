@@ -25,11 +25,9 @@ nav a {
 }
 
     
-/* Form Styling */
 form {
     display: flex;
-    flex-direction: column;  /* Stack form elements vertically */
-    max-width: 500px;  /* Limit the form width */
-    margin: 0 auto;  /* Center the form on the page */
-}
+    flex-direction: column; 
+    margin: 0 auto;  
 
+}
